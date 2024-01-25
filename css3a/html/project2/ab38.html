@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section section'
+                'footer footer footer footer';
+        }
+
+        .item {
+            background-color: beige;
+            border: 3px solid black;
+            padding: 12px 23px;
+        }
+
+        #navbar {
+            grid-area: navbar;
+        }
+
+        #section {
+            grid-area: section;
+        }
+
+        #aside {
+            grid-area: aside;
+        }
+
+        footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="navbr" class="item">
+            home about us contact us
+        </div>
+        <div id="section" class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur omnis,
+            quam debitis optio dolor aperiam deleniti atque odio laboriosam tenetur nam distinctio libero iure, velit
+            aspernatur magnam totam veniam commodi, dolore repudiandae doloremque. Architecto alias accusamus hic
+            accusantium. Corporis inventore quod architecto culpa, aliquid numquam, nihil saepe asperiores ut pariatur,
+            tempore minima dolores. Nulla, natus!</div>
+        <div id="aside" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, magni, deleniti
+            quis repudiandae sequi quas repellat, veritatis blanditiis magnam sapiente dignissimos temporibus. Sit dolor
+            molestias facilis fuga minima, suscipit illo reiciendis, nobis enim omnis modi ratione. Rerum consectetur
+            veniam, a magni reiciendis dicta ab aliquid quas nulla libero incidunt repudiandae reprehenderit placeat
+            mollitia enim rem?</div>
+        <footer class="item">this is footer</footer>
+
+        <!-- <div class="item">item-1</div>
+        <div class="item">item-2</div>
+        <div class="item">item-3</div>
+        <div class="item">item-4</div>
+        <div class="item">item-5</div>
+        <div class="item">item-6</div>
+        <div class="item">item-7</div>
+        <div class="item">item-8</div>
+        <div class="item">item-9</div>
+        <div class="item">item-10</div>
+        <div class="item">item-11</div>
+        <div class="item">item-12</div>
+        <div class="item">item-13</div>
+        <div class="item">item-14</div> -->
+    </div>
+</body>
+
+</html>

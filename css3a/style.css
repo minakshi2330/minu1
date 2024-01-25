@@ -1,0 +1,39 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* css variables */
+#navbar{
+    display: flex;
+    align-items: center;
+    
+}
+ 
+/* logo and image */
+#logo{
+  margin: 10px 34px;
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+}
+
+/* navigation bar: list styling */
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+    /* color: white; */
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
